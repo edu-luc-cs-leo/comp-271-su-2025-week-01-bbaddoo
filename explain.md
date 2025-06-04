@@ -1,0 +1,1 @@
+Part 1: In line 83 of Realistic.java that line is used to make a new array that hold the first elements of the array along with the new ones that are added to it. arr.length is the size of the old array and the next index of the new one.

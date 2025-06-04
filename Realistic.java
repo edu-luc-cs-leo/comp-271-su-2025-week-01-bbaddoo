@@ -14,7 +14,13 @@ public class Realistic {
      * 
      * @return int with the smallest value in array arr
      */
-    public static int getSmallest() {
+    public static Integer getSmallest() {  //int->Integer
+        //checking for an empty array(0) and if it is then return null
+        if (arr==null || arr.length== 0) {
+            return null;
+        }
+        
+        
         // Assume smallest is first element
         int smallest_index = 0;
         // Scan the remaining elements, replacing the position of the smallest element
@@ -72,6 +78,7 @@ public class Realistic {
      * 
      * @param value int to add to the array
      */
+    //
     public static void add(int value) {
         // Create a larger temporary array
         int[] temporary = new int[arr.length + 1];
